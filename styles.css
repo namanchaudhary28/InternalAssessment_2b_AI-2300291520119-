@@ -41,7 +41,64 @@
   --bx-shadow-clr: #2d425333;
 }
 
-/* ------------ BASE ------------ */
+:root {
+    --primary-color: #5D4E6D;
+    --dark-bg: #2D3640;
+    --text-light: #FFFFFF;
+}
+
+body {
+    background-color: rgb(214, 80, 80);
+   
+    color: var(--text-light);
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 1rem 2rem;
+}
+
+.hero-section {
+    min-height: 80vh;
+    padding: 4rem 0;
+}
+
+
+
+    
+
+
+
+.product-card {
+    background-color: rgba(45, 54, 64, 0.8);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 0.5rem 2rem;
+}
+
+.btn-outline-light {
+    border: 2px solid white;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    padding: 1rem;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2rem 0;
+}
 body {
   }
 
